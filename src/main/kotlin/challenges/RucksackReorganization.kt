@@ -1,0 +1,4 @@
+package challenges
+
+class RucksackReorganization {
+}
