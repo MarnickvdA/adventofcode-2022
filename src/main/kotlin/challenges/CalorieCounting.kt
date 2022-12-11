@@ -1,7 +1,7 @@
-package day1
+package challenges
 
 import Challenge
-import java.nio.file.Paths.*
+import java.io.File
 
 
 /**
@@ -20,12 +20,16 @@ class CalorieCounting : Challenge {
         return "Day 1 - Calorie Counting"
     }
 
+    override fun getInputFileName(): String {
+        return "day1.txt"
+    }
+
     /**
      * This challenge contains a simple check for the max calories in a set of calorie items.
      */
-    override fun solve(): String {
+    override fun solve(input: File?): String {
         val calories = mutableListOf<Int>()
-        var curSum = 0;
+        var curSum = 0
 
         fun processLine(line: String) {
             if (line.isEmpty()) {
@@ -37,7 +41,7 @@ class CalorieCounting : Challenge {
         }
 
         // Read file, line per line
-        get(System.getProperty("user.dir"), "src", "main", "resources", "day1.txt").toFile()
+        input!!
             .forEachLine { processLine(it) }
 
         calories.sortDescending()

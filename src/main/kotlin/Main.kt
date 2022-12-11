@@ -1,7 +1,21 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import challenges.*
+import java.io.File
+import java.nio.file.Paths.*
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun main() {
+    val challenges = mutableListOf(
+//        CalorieCounting(),
+//        RockPaperScissors(),
+//        RucksackReorganization(),
+//        CampCleanup(),
+//        SupplyStacks(),
+//        TuningTrouble(),
+        NoSpaceLeftOnDevice()
+    )
+
+    challenges.forEach { println("%s: %s".format(it.getName(), it.solve(getFile(it.getInputFileName())))) }
+}
+
+fun getFile(fileName: String): File {
+    return get(System.getProperty("user.dir"), "src", "main", "resources", fileName).toFile()
 }
