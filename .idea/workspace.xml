@@ -5,29 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05053ab2-79ed-4e99-809a-2f615e55fdb3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/challenges/TreetopTreeHouse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day8_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Challenge.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Challenge.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/challenges/CalorieCounting.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/challenges/CalorieCounting.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/challenges/CampCleanup.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/challenges/CampCleanup.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/challenges/NoSpaceLeftOnDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/challenges/NoSpaceLeftOnDevice.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/challenges/RockPaperScissors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/challenges/RockPaperScissors.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/challenges/RucksackReorganization.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/challenges/RucksackReorganization.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/challenges/SupplyStacks.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/challenges/SupplyStacks.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/challenges/TuningTrouble.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/challenges/TuningTrouble.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/utils/Stack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utils/Stack.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/day2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/day3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/day4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/day5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/day6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/day7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/day7_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day7_test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/RockPaperScissorsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/RockPaperScissorsTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/SupplyStacksTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/SupplyStacksTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TuningTroubleTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TuningTroubleTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +31,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2ISOhUuZGVtsDYzgFSI8PV4YGlh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -63,23 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/challenges" />
@@ -131,17 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
@@ -165,10 +130,22 @@
       <workItem from="1670767618961" duration="957000" />
       <workItem from="1670769178050" duration="1952000" />
       <workItem from="1670784183834" duration="6297000" />
+      <workItem from="1671175826282" duration="12020000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -10,7 +10,9 @@ fun main() {
 //        CampCleanup(),
 //        SupplyStacks(),
 //        TuningTrouble(),
-        NoSpaceLeftOnDevice()
+//        NoSpaceLeftOnDevice(),
+//        TreetopTreeHouse(),
+    RopeBridge()
     )
 
     challenges.forEach { println("%s: %s".format(it.getName(), it.solve(getFile(it.getInputFileName())))) }
